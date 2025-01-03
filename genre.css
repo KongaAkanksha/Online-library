@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/1.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f7f2f2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #3f3c3c;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #cec0c0;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .books{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+  .download{
+    margin-left: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 16px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+  }
+
+  .download:hover{
+    border: 1px solid #2e6784;
+    background:  #2e6784;
+    transition: 1s;
+  }
+  .logout-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
